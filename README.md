@@ -75,8 +75,8 @@ To get this project up and running on your local machine, follow these steps:
 
 - Frontend: React, Next.js
 - Styling: Tailwind CSS
-- Backend: Node.js, Express (if applicable)
-- Database: MongoDB (if applicable)
+- Backend: Node.js, Express
+- Database: MongoDB
 - Deployment: Vercel
 
 ## Contributing 🤝
