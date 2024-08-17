@@ -92,4 +92,4 @@ Contributions are welcome! Please fork this repository and submit a pull request
 If you have any questions or feedback, feel free to reach out!
 
 - Email: pavin.pariyar14@gmail.com
-- GitHub: [yourusername](https://github.com/pavinpariyar)
+- GitHub: [PavinPariyar](https://github.com/pavinpariyar)
