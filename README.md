@@ -1,16 +1,20 @@
 # MindsMaps 🧠🗺️
 
-MindsMaps is a web application designed to help users create, visualize, and organize their thoughts and ideas using interactive mind maps. This tool allows users to break down complex concepts into more manageable, interconnected components, making it easier to structure information and see the bigger picture.
+https://mindsmaps.vercel.app
 
 ## Table of Contents
 
-- [Features](#features-)
-- [Demo](#demo-)
-- [Installation](#installation-)
-- [Usage](#usage-)
-- [Technologies Used](#Technologies-Used-)
-- [Contributing](#contributing-)
-- [Contact](#contact-)
+- [Project Four - MindMaps 🧠🗺️](#project-Four---MindMaps-️)
+  - [Table of Contents](#table-of-contents)
+  - [Description 📝](#description-)
+  - [Features ✨](#features-)
+  - [Tech Stack 🛠️](#tech-stack-️)
+  - [Project Structure 🗂️](#project-structure-️)
+  - [Installation 💻](#installation-)
+
+## Description 📝
+
+MindsMaps is a web application designed to help users create, visualize, and organize their thoughts and ideas using interactive mind maps. This tool allows users to break down complex concepts into more manageable, interconnected components, making it easier to structure information and see the bigger picture.
 
 ## Features ✨
 
@@ -19,9 +23,54 @@ MindsMaps is a web application designed to help users create, visualize, and org
 - **Real-time Collaboration**: Work with others in real-time to build mind maps together.
 - **Responsive Design**: Fully functional on both desktop and mobile devices.
 
-## Demo 🚀
+## Tech Stack 🛠️
+- React.js
+- Next.js
+- Tailwind CSS
+- Node.js
+- Express
+- MongoDB
 
-You can check out the live application [here](https://mindsmaps.vercel.app/).
+## Project Structure 🗂️
+
+```plaintext
+.
+project-root/
+├── frontend/
+│   ├── public/
+│   │   └── vite.svg
+│   ├── src/
+│   │   ├── assets/
+│   │   │   └── react.svg
+│   │   ├── components/
+│   │   │   ├── Login.jsx
+│   │   │   ├── Register.jsx
+│   │   │   └── Tasks.jsx
+│   │   ├── services/
+│   │   │   ├── Axios.js
+│   │   │   ├── task.service.js
+│   │   │   └── user.service.js
+│   │   ├── utils/
+│   │   │   └── constant.js
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── .eslintrc.cjs
+│   ├── .gitignore
+│   ├── README.md
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   └── vite.config.js
+├── backend/
+│   ├── .env
+│   ├── .gitignore
+│   ├── index.js
+│   ├── package-lock.json
+│   └── package.json
+
+```
 
 ## Installation 💻
 
@@ -58,38 +107,3 @@ To get this project up and running on your local machine, follow these steps:
   nprm start
   ```
 
-## Usage 📚
-
-1. Creating a New Mind Map:
-   - Click on "New Map" to start a new mind map.
-   - Use the drag-and-drop interface to add nodes and connect them with lines.
-
-2. Editing Nodes:
-   - Double-click on a node to edit the text.
-   - Drag nodes to reposition them on the map.
-
-3. Collaboration:
-   - Share your mind map with others by generating a shareable link.
-
-## Technologies Used 🛠️
-
-- Frontend: React, Next.js
-- Styling: Tailwind CSS
-- Backend: Node.js, Express
-- Database: MongoDB
-- Deployment: Vercel
-
-## Contributing 🤝
-Contributions are welcome! Please fork this repository and submit a pull request with your proposed changes.
-
-1. Fork the repository.
-2. Create your feature branch (git checkout -b feature/AmazingFeature).
-3. Commit your changes (git commit -m 'Add some AmazingFeature').
-4. Push to the branch (git push origin feature/AmazingFeature).
-5. Open a pull request.
-
-## Contact 📧
-If you have any questions or feedback, feel free to reach out!
-
-- Email: pavin.pariyar14@gmail.com
-- GitHub: [PavinPariyar](https://github.com/pavinpariyar)
